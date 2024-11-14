@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Report" parallel="classes">
+        <classes>
+            <class name="day1.TC01"/>
+
+            <class name="day1.TC02"/>
+
+        </classes>
+    </test>
+</suite>
