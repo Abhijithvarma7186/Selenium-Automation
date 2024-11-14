@@ -8,5 +8,6 @@ public class TC02 extends BaseTest {
     public void test() {
         System.out.println("Hello World");
         driver.get("http://www.amazon.com");
+        System.out.println(driver.getTitle());
     }
 }
